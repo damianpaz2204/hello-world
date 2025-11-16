@@ -1,7 +1,22 @@
-# Python
-backend/venv/
-__pycache__/
+# -----------------------------------
+# PYTHON
+# -----------------------------------
 
-# Misc
-.env
-.DS_Store
+# Entornos virtuales
+backend/venv/
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de build/dist
+build/
+dist/
+*.egg-info/
+
+# Archivos de configuración locales
+*.env
+*.ini
+*.local
