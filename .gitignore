@@ -1,5 +1,5 @@
 # -----------------------------------
-# PYTHON
+# BACKEND
 # -----------------------------------
 
 # Entornos virtuales
@@ -20,3 +20,26 @@ dist/
 *.env
 *.ini
 *.local
+
+# -----------------------------------
+# FRONTEND
+# -----------------------------------
+
+frontend/node_modules/
+frontend/dist/
+
+# -----------------------------------
+# OS
+# -----------------------------------
+
+# macOS / Linux
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
